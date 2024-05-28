@@ -1,7 +1,6 @@
-async function testAPI() {
+async function testAPI(stream) {
     const endpoint = 'http://127.0.0.1:8787'; 
-    const token = 'Bearer USER100'; 
-    const stream = false; // Set to true to test stream mode
+    const token = 'Bearer USER456'; 
   
     try {
       const response = await fetch(`${endpoint}?stream=${stream}`, {
