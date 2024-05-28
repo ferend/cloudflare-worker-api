@@ -1,5 +1,5 @@
 async function testAPI(stream) {
-    const endpoint = 'http://127.0.0.1:8787'; 
+    const endpoint = 'https://worker-tight-hat-f421.dalcikferhateren.workers.dev'; 
     const token = 'Bearer USER456'; 
   
     try {
